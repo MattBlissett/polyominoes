@@ -3,3 +3,21 @@
 This OpenSCAD library can generate polyomino (pentomino etc) tiles for board games, and a gridded board on which to place them.
 
 Type `make` to (re)generate the STL files.
+
+== Printing suggestions
+
+=== Boards
+
+Set the top infill to Octogram Spiral or Concentric, except for the highest layer which can remain as rectilinear/monotonic.
+
+=== Pieces
+
+I used SuperSlicer, with the output option "Complete individual objects".  This gives one skirt around each object, unlike PrusaSlicer, which only draws a single all-objects skirt.
+
+I set the printer "Between objects G-code (for sequential printing)" to `M600`, to give a filament change.
+
+For the pentominos, which have holes, I set height range modifiers (6-7mm) with a "Bridging angle" of 135°, otherwise the angle varies.
+
+=== Dice
+
+60% infill produced a reasonable weight.
