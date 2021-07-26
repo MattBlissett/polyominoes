@@ -2,6 +2,10 @@
 
 This OpenSCAD library can generate polyomino (pentomino etc) tiles for board games, and a gridded board on which to place them.
 
+https://matt.blissett.me.uk/3d-printing/polyominoes/[image:https://matt.blissett.me.uk/3d-printing/polyominoes/pentominoes-64.jpg?w=2030&h=2400[Pentominoes]]
+
+See http://isomerdesign.com/Pentomino/ for example board sizes for pentominoes, or print dice to make a board game similar to https://www.happypuzzle.co.uk/30cubed/genius-square[Genius Square].
+
 Type `make` to (re)generate the STL files.
 
 == Printing suggestions
