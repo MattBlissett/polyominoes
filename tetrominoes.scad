@@ -1,6 +1,7 @@
 include <./lib/polyomino.scad>
 
 $size = 10;
+$hole = false;
 off = $size + 1;
 
 $fn = 32;

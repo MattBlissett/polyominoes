@@ -42,9 +42,6 @@ module shape(coords) {
                               dx = c[0] - prev[0];
                               dy = c[1] - prev[1];
 
-                              //echo("c", c, "prev", prev);
-                              //echo("dx", dx, "dy", dy);
-
                               // Connector to previous cube
                               if (dx != 0) {
                                    connector_size = $rim_thickness + $gap;
